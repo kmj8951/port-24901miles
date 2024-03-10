@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.547" height="47.333" viewBox="0 0 27.547 47.333">
+  <g id="product_ico11" transform="translate(0.5 0.5)" opacity="0.85">
+    <ellipse id="타원_29" data-name="타원 29" cx="2.988" cy="6.125" rx="2.988" ry="6.125" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="패스_11473" data-name="패스 11473" d="M-3006.758-439.563c0,1.65-2.4,2.988-5.356,2.988s-5.356-1.338-5.356-2.988" transform="translate(3033.304 476.733)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="선_133" data-name="선 133" x2="20.053" transform="translate(2.988)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="선_134" data-name="선 134" x2="12.847" transform="translate(2.988 12.25)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="패스_11474" data-name="패스 11474" d="M-3017.47-926.223v31.1c0,1.65,2.4,2.988,5.356,2.988s5.356-1.338,5.356-2.988v-43.345Z" transform="translate(3033.304 938.473)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="패스_11475" data-name="패스 11475" d="M-3017.47-732.854a1.952,1.952,0,0,1,1.952-1.952,1.952,1.952,0,0,1,1.952,1.952v29.1" transform="translate(3033.304 749.98)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="그룹_14180" data-name="그룹 14180" transform="translate(1.503 2.524)">
+      <line id="선_135" data-name="선 135" x1="1.666" y2="6.883" transform="translate(0.651 0.159)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="선_136" data-name="선 136" x1="1.484" y1="7.202" transform="translate(0.742)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="선_137" data-name="선 137" x1="2.969" transform="translate(0 3.601)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <circle id="타원_30" data-name="타원 30" cx="0.825" cy="0.825" r="0.825" transform="translate(16.961 21.133)" fill="#fff"/>
+    <circle id="타원_31" data-name="타원 31" cx="0.584" cy="0.584" r="0.584" transform="translate(17.202 36.586)" fill="#fff"/>
+    <circle id="타원_32" data-name="타원 32" cx="0.584" cy="0.584" r="0.584" transform="translate(17.202 40.963)" fill="#fff"/>
+    <circle id="타원_33" data-name="타원 33" cx="0.584" cy="0.584" r="0.584" transform="translate(17.202 42.557)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>샤크닌자</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.css" />
+
+  <!-- 순서 -->
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+
+  <!-- 제이쿼리쓰려면필요한거 -->
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="group-flex">
+
+      <div class="logo-area">
+        <h1 class="logo">
+          <a href="">
+            <img src="./assets/img/logo.svg" alt="샤크 닌자">
+          </a>
+        </h1>
+      </div>
+
+      <nav class="gnb">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="" class="nav">Shark</a></li>
+          <li class="nav-item"><a href="" class="nav">Shark Beauty</a></li>
+          <li class="nav-item"><a href="" class="nav">Ninja</a></li>
+          <li class="nav-item hover"><a href="" class="nav">Product</a>
+            <div class="sub">
+              <div class="content">
+
+
+                <div class="con">
+                  <a class="title">KITCHEN</a>
+                  <ul class="sub-list">
+                    <li>
+                      <a href="">
+                        <div class="img-box">
+                          <img src="./assets/img/refrigerator.svg" alt="">
+                        </div>
+                        <div class="name">
+                          <p class="eng">Refrigerator</p>
+                          <p class="kor">냉장고</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="img-box">
+                          <img src="./assets/img/winecabinet.svg" alt="">
+                        </div>
+                        <div class="name">
+                          <p class="eng">Wine Cabinet</p>
+                          <p class="kor">와인 냉장고</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="img-box blender">
+                          <img src="./assets/img/blender.svg" alt="">
+                        </div>
+                        <div class="name">
+                          <p class="eng">Blender</p>
+                          <p class="kor">블렌더</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="img-box">
+                          <img src="./assets/img/icecreammaker.svg" alt="">
+                        </div>
+                        <div class="name">
+                          <p class="eng">Ice Cream Maker</p>
+                          <p class="kor">아이스크림 메이커</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="img-box">
+                          <img src="./assets/img/airfryer.svg" alt="">
+                        </div>
+                        <div class="name">
+                          <p class="eng">Air Fryer</p>
+                          <p class="kor">에어프라이어</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="img-box">
+                          <img src="./assets/img/oven.svg" alt="">
+                        </div>
+                        <div class="name">
+                          <p class="eng">Oven</p>
+                          <p class="kor">오븐</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="img-box">
+                          <img src="./assets/img/grill.svg" alt="">
+                        </div>
+                        <div class="name">
+                          <p class="eng">Grill</p>
+                          <p class="kor">그릴</p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="con">
+                  <a class="title">LIVING</a>
+                  <ul class="sub-list">
+                    <li>
+                      <a href="">
+                        <div class="img-box">
+                          <img src="./assets/img/vacuumcleaner.svg" alt="">
+                        </div>
+                        <div class="name">
+                          <p class="eng">Vacuum Cleaner</p>
+                          <p class="kor">청소기</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="img-box">
+                          <img src="./assets/img/airpurifier.svg" alt="">
+                        </div>
+                        <div class="name">
+                          <p class="eng">Air Purifier</p>
+                          <p class="kor">공기청정기</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="img-box">
+                          <img src="./assets/img/circulator.svg" alt="">
+                        </div>
+                        <div class="name">
+                          <p class="eng">Circulator</p>
+                          <p class="kor">써큘레이터</p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="con">
+                  <a class="title">POWDER ROOM</a>
+
+                  <ul class="sub-list">
+                    <li>
+                      <a href="">
+                        <div class="img-box">
+                          <img src="./assets/img/hairstyler.svg" alt="">
+                        </div>
+                        <div class="name">
+                          <p class="eng">Hair Styler</p>
+                          <p class="kor">헤어스타일러</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="img-box">
+                          <img src="./assets/img/humidifier.svg" alt="">
+                        </div>
+                        <div class="name">
+                          <p class="eng">Humidifier</p>
+                          <p class="kor">가습기</p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="util-area">
+        <div class="register-icon">
+          <div class="text-box">
+            <a href="">제품등록</a>
+          </div>
+          <div class="search">
+            <span class="search"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M25.25 14C25.25 20.2132 20.2132 25.25 14 25.25C7.7868 25.25 2.75 20.2132 2.75 14C2.75 7.7868 7.7868 2.75 14 2.75C20.2132 2.75 25.25 7.7868 25.25 14Z"
+                  stroke="#1A1A1A" stroke-width="1.5"></path>
+                <path d="M29.0001 29.5L21.5001 22" stroke="#1A1A1A" stroke-width="1.5"></path>
+              </svg></span>
+          </div>
+          <div class="mypage">
+            <a href=""><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M23.25 10C23.25 14.0041 20.0041 17.25 16 17.25C11.9959 17.25 8.75 14.0041 8.75 10C8.75 5.99594 11.9959 2.75 16 2.75C20.0041 2.75 23.25 5.99594 23.25 10Z"
+                  stroke="#1A1A1A" stroke-width="1.5"></path>
+                <g clip-path="url(#clip0_172_2334)">
+                  <rect x="2.75" y="21.75" width="26.5" height="22.5" rx="11.25" stroke="#1A1A1A" stroke-width="1.5">
+                  </rect>
+                </g>
+                <defs>
+                  <clipPath id="clip0_172_2334">
+                    <rect width="28" height="9" fill="white" transform="translate(2 21)"></rect>
+                  </clipPath>
+                </defs>
+              </svg></a>
+
+            <ul>
+              <li>
+                <a href="">로그인</a>
+                <a href="">회원가입</a>
+              </li>
+              <li>
+                <a href="">마이페이지</a>
+                <a href="">주문/배송조회</a>
+                <a href="">관심상품</a>
+                <a href="">쿠폰</a>
+              </li>
+              <li><a href="">최근 본 상품</a></li>
+              <li><a href="">고객센터</a></li>
+            </ul>
+          </div>
+          <div class="cart">
+            <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.75" y="6.75" width="22.5" height="20.5" rx="3.25" stroke="#1A1A1A" stroke-width="1.5"></rect>
+              <g clip-path="url(#clip0_1090_1570)">
+                <rect x="5.75" y="0.75" width="12.5" height="26.5" rx="3.25" stroke="#1A1A1A" stroke-width="1.5"></rect>
+              </g>
+              <defs>
+                <clipPath id="clip0_1090_1570">
+                  <rect width="14" height="11" fill="white" transform="translate(5)"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+  <main class="container">
+
+    <!-- 메인비주얼 영역 -->
+    <section class="sc-visual">
+
+      <h2 class="blind">메인비주얼</h2>
+
+      <div class="swiper main-slide">
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <video id="video1" src="./assets/img/mainvisual_shark.mp4" muted="" autoplay="" loop=""
+              playsinline=""></video>
+
+            <div class="text-box">
+              <h3>Enhancing Lives Worldwid<br>
+                <strong>Shark Innovations</strong>
+              </h3>
+              <div class="btn_wrap">
+                <a href="">브랜드 바로가기</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <video id="video2" src="./assets/img/mainvisual_sharkbeauty.mp4" muted="" autoplay="" loop=""
+              playsinline=""></video>
+
+            <div class="text-box">
+              <h3>
+                <h3>For every version of you<br>
+                  <strong>Shark Beauty</strong>
+                </h3>
+              </h3>
+              <div class="btn_wrap">
+                <a href="">브랜드 바로가기</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <video id="video2" src="./assets/img/mainvisual_ninja.mp4" muted="" autoplay="" loop=""
+              playsinline=""></video>
+
+            <div class="text-box">
+              <h3>Impacting <strong>Lives Daily,</strong>worldwide Homes
+              </h3>
+              <div class="btn_wrap">
+                브랜드 바로가기
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 여기다가 -->
+        <div class="control">
+          <div class="pagination"></div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- room collection 영역 -->
+    <section class="sc-collect">
+
+      <div class="group-title">
+        <h2 class="headline">Room of Collection</h2>
+
+        <div class="tab-nav">
+          <button type="button" data-tab="#tab1" class="btntab active">KITCHEN</button>
+          <button type="button" data-tab="#tab2" class="btntab">LIVING</button>
+          <button type="button" data-tab="#tab3" class="btntab">POWDER</button>
+        </div>
+      </div>
+
+      <div class="contents">
+
+        <div class="tab-con">
+          <div class="con active" id="tab1">
+            <!-- 이미지 -->
+            <div class="front-area">
+              <img src="./assets/img/kitchen-bg.jpg" alt="" class="bg">
+              <button class="btn btn1" data-idx="0"></button>
+              <button class="btn btn2" data-idx="1"></button>
+              <button class="btn btn3" data-idx="2"></button>
+            </div>
+
+          </div>
+          <div class="con" id="tab2">
+            <!-- 이미지 -->
+            <div class="front-area">
+              <img src="./assets/img/living-bg.jpg" alt="" class="bg">
+              <button class="btn btn4" data-idx="3"></button>
+              <button class="btn btn5" data-idx="4"></button>
+              <button class="btn btn6" data-idx="5"></button>
+            </div>
+
+          </div>
+          <div class="con" id="tab3">
+            <!-- 이미지 -->
+            <div class="front-area">
+              <img src="./assets/img/powder-bg.jpg" alt="" class="bg">
+              <button class="btn btn7" data-idx="6"></button>
+              <button class="btn btn8" data-idx="7"></button>
+              <button class="btn btn9" data-idx="8"></button>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="slide">
+          <div class="inner">
+
+            <!-- 제품 슬라이드 -->
+            <div class="swiper collect-slide1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./assets/img/collectslide01.png" alt="제품1"></div>
+                <div class="swiper-slide"><img src="./assets/img/collectslide02.png" alt="제품2"></div>
+                <div class="swiper-slide"><img src="./assets/img/collectslide03.png" alt="제품3"></div>
+                <div class="swiper-slide"><img src="./assets/img/collectslide04.png" alt="제품4"></div>
+                <div class="swiper-slide"><img src="./assets/img/collectslide05.png" alt="제품5"></div>
+                <div class="swiper-slide"><img src="./assets/img/collectslide06.png" alt="제품6"></div>
+                <div class="swiper-slide"><img src="./assets/img/collectslide07.png" alt="제품7"></div>
+                <div class="swiper-slide"><img src="./assets/img/collectslide08.png" alt="제품8"></div>
+                <div class="swiper-slide"><img src="./assets/img/collectslide09.png" alt="제품9"></div>
+              </div>
+              <!-- 여기다가 -->
+              <button class="btn prev">
+                <img src="./assets/img/prev.svg" alt="">
+              </button>
+              <button class="btn next">
+                <img src="./assets/img/next.svg" alt="">
+              </button>
+            </div>
+            <!-- 설명 슬라이드 -->
+            <div class="swiper collect-slide2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="text-box">
+                    <div class="title">닌자 DT200</div>
+                    <div class="desc">
+                      더 이상 긴 조리 시간은 필요 없습니다.<br>
+                      뒤집거나 회전할 필요 없이, 가족을 위한 대용량의 음식을 단기간 내에 조리합니다.<br>
+                      에어프라이, 구이, 베이킹 등 10가지 다양한 기능을 True Surround 기술로 빠르고 고르게 조리합니다.
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-box">
+                    <div class="title">닌자 BL682</div>
+                    <div class="desc">
+                      초강력 블렌딩은 물론, 다지기/반죽 기능까지 구현되는 이 키친 시스템은 주방의 마스터 솔루션입니다.<br>
+                      닌자의 초고속 블렌더 푸드 프로세서는 다양한 조리에 활용 가능합니다.
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-box">
+                    <div class="title">닌자 NC300</div>
+                    <div class="desc">
+                      아이스크림 메이커는 건강을 생각한 디저트, 나만의 홈카페를 만들기 완벽한 제품입니다.<br>
+                      무설탕, 유기농 과일, 단백질 파우더 등 원하는 재료로 젤라또, 아이스크림, 스무디 등 원하는 질감의 디저트를 완성할 수 있습니다.
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-box">
+                    <div class="title">샤크 CS851KR</div>
+                    <div class="desc">
+                      AED (자동 먼지 비움 시스템) 탑재로 거치만으로 먼지가 자동으로 비워집니다.<br>
+                      샤크 에보파워 시스템 시리즈의 모든 장점에 AED까지 포함된 IQ+으로 즐거운 청소 시간을 시작해보세요.
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-box">
+                    <div class="title">샤크 D1410WH</div>
+                    <div class="desc">
+                      에어서큘레이터의 7엽 날개 수는 바람을 잘게 잘라 부드러운 바람을 일으키며<br>
+                      공기를 가르는 면적이 적어 소음 발생이 적습니다.
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-box">
+                    <div class="title">샤크 AC2939</div>
+                    <div class="desc">
+                      실내 조리시 발생하는 유해가스, 1년 365일 하늘을 뒤덮는 황사와 미세먼지,<br>
+                      각종 바이러스의 공격으로부터 우리 가족을 지켜주세요.
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-box">
+                    <div class="title">샤크뷰티 HD440</div>
+                    <div class="desc">
+                      원하는 어떤 헤어 스타일도 쉽게 완성 가능한 툴킷 풀 세트가 포함되어있습니다.<br>
+                      긴머리, 짧은머리, 얇은 머리, 곱슬 머리 등 All hairkind를 위한 에어 드라잉 시스템으로 S컬, C컬, 스트레이트와 볼륨 헤어까지 원하는 대로 구현해보세요.
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-box">
+                    <div class="title">샤크 WV260KR</div>
+                    <div class="desc">
+                      작고 가벼운 무게 대비 강력한 흡입력으로 사용자에게 많은 사랑을 받아온 신개념 무선 핸디형 청소기 샤크 에보 파워 플러스!
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-box">
+                    <div class="title">샤크 AQ004</div>
+                    <div class="desc">
+                      음료와 간식은 물론, 화장품 보관까지 활용도 놓은 미니 냉온장고<br>
+                      나만을 위한 미니 냉온장고로 편리함을 누려보세요.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn_wrap">
+                <a href="">제품 자세히 보기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- sc-choice 영역 -->
+    <section class="sc-choice">
+      <div class="inner">
+        <h2 class="headline">
+          <strong>24901miles'</strong> choice
+        </h2>
+        <ul class="choice-list product-list">
+          <li iclass="choice-item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/img/choice01.jpg" alt="제품이미지01">
+                  <div class="icon">
+                    <span class="cart"><img src="./assets/img/icon-cart.png"
+                        alt="카트이미지"></span>
+                    <span class="wish"><img src="./assets/img/icon-hart.png"
+                        alt="위시이미지"></span>
+                  </div>
+              </div>
+
+              <div class="text-box">
+                <strong>샤크 CS851KR</strong>
+                <p>에보 파워 시스템 IQ+ 무선 청소기</p>
+                <div class="flex">
+                  <em>13%</em>
+                  <strong>699,000원 </strong>
+                </div>
+              </div>
+            </a>
+
+          </li>
+          <li iclass="choice-item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/img/choice02.png" alt="제품이미지02">
+                  <div class="icon">
+                    <span class="cart"><img src="./assets/img/icon-cart.png"
+                        alt="카트이미지"></span>
+                    <span class="wish"><img src="./assets/img/icon-hart.png"
+                        alt="위시이미지"></span>
+                  </div>
+              </div>
+              <div class="text-box">
+                <strong>닌자 BL682KR</strong>
+                <p>AUTO IQ 초고속 블렌더 + 푸드프로세서</p>
+                <div class="flex">
+                  <!-- <em>13%</em> -->
+                  <strong>420,000원 </strong>
+                </div>
+              </div>
+            </a>
+
+          </li>
+          <li iclass="choice-item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/img/choice03.jpg" alt="제품이미지03">
+                  <span class="icon">
+                    <span class="cart"><img src="./assets/img/icon-cart.png"
+                        alt="카트이미지"></span>
+                    <span class="wish"><img src="./assets/img/icon-hart.png"
+                        alt="위시이미지"></span>
+                  </span>
+              </div>
+              <div class="text-box">
+                <strong>샤크 플렉스타일 HD440</strong>
+                <p>샤크 2 in 1 헤어스타일러 풀패키지</p>
+                <div class="flex">
+                  <em>17%</em>
+                  <strong>499,000원 </strong>
+                </div>
+              </div>
+            </a>
+
+          </li>
+          <li iclass="choice-item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/img/choice04.png" alt="제품이미지04">
+                  <span class="icon">
+                    <span class="cart"><img src="./assets/img/icon-cart.png"
+                        alt="카트이미지"></span>
+                    <span class="wish"><img src="./assets/img/icon-hart.png"
+                        alt="위시이미지"></span>
+                  </span>
+              </div>
+              <div class="text-box">
+                <strong>닌자 DT200KR</strong>
+                <p>닌자 푸디 에어 프라이어 오븐 XL</p>
+                <div class="flex">
+                  <!-- <em>13%</em> -->
+                  <strong>699,000원 </strong>
+                </div>
+              </div>
+            </a>
+
+          </li>
+          <li iclass="choice-item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/img/choice05.jpg" alt="제품이미지05">
+                  <span class="icon">
+                    <span class="cart"><img src="./assets/img/icon-cart.png"
+                        alt="카트이미지"></span>
+                    <span class="wish"><img src="./assets/img/icon-hart.png"
+                        alt="위시이미지"></span>
+                  </span>
+              </div>
+              <div class="text-box">
+                <strong>닌자 NC300KR</strong>
+                <p>아이스크림, 저지방 아이스크림, 젤라또 메이커</p>
+                <div class="flex">
+                  <!-- <em>13%</em> -->
+                  <strong>359,000원 </strong>
+                </div>
+              </div>
+            </a>
+
+          </li>
+          <li iclass="choice-item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/img/choice06.png" alt="제품이미지06">
+                  <span class="icon">
+                    <span class="cart"><img src="./assets/img/icon-cart.png"
+                        alt="카트이미지"></span>
+                    <span class="wish"><img src="./assets/img/icon-hart.png"
+                        alt="위시이미지"></span>
+                  </span>
+              </div>
+              <div class="text-box">
+                <strong>샤크 WV260KR</strong>
+                <p>에보 파워 플러스 무선 핸디 청소기</p>
+                <div class="flex">
+                  <!-- <em>13%</em> -->
+                  <strong>287,000원</strong>
+                </div>
+              </div>
+            </a>
+
+          </li>
+          <li iclass="choice-item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/img/choice07.jpg" alt="제품이미지07">
+                  <span class="icon">
+                    <span class="cart"><img src="./assets/img/icon-cart.png"
+                        alt="카트이미지"></span>
+                    <span class="wish"><img src="./assets/img/icon-hart.png"
+                        alt="위시이미지"></span>
+                  </span>
+              </div>
+              <div class="text-box">
+                <strong>닌자 블렌더 CB350</strong>
+                <p>스마트 파워업 초고속 블렌더</p>
+                <div class="flex">
+                  <!-- <em>13%</em> -->
+                  <strong>399,000원</strong>
+                </div>
+              </div>
+            </a>
+
+          </li>
+          <li iclass="choice-item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/img/choice08.jpg" alt="제품이미지08">
+                  <span class="icon">
+                    <span class="cart"><img src="./assets/img/icon-cart.png"
+                        alt="카트이미지"></span>
+                    <span class="wish"><img src="./assets/img/icon-hart.png"
+                        alt="위시이미지"></span>
+                  </span>
+                  <span class="icon">
+                    <span class="cart"><img src="./assets/img/icon-cart.png"
+                        alt="카트이미지"></span>
+                    <span class="wish"><img src="./assets/img/icon-hart.png"
+                        alt="위시이미지"></span>
+                  </span>
+              </div>
+              <div class="text-box">
+                <strong>닌자 블렌더 PS104</strong>
+                <p>울트라프렙 초고속 블렌더 믹서기</p>
+                <div class="flex">
+                  <!-- <em>13%</em> -->
+                  <strong>189,000원 </strong>
+                </div>
+              </div>
+            </a>
+
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- sc-journey 영역 -->
+    <section class="sc-journey">
+      <div class="bg">
+        <div class="title">
+          <h2>A journey of</h2>
+          <div class="img-box">
+            <img src="./assets/img/ajourneyof.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="text-box">
+        <p>지구 한바퀴의 거리를 뜻하는 24901miles는<br>
+          지구 한바퀴의 여정 끝에 찾아낸 하이엔드 가전 셀렉샵입니다.</p>
+      </div>
+      <div class="btn_wrap">
+        <a href="">24901miles Overview</a>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="inner">
+      <!-- sc-register 영역 -->
+      <section class="sc-register">
+
+        <ul class="register-list">
+          <li class="register-item active">
+            <a href="">
+              <div class="text-box">
+                <div class="title">정품등록</div>
+                <div class="desc">
+                  가전 정품 등록을 통해<br>
+                  고객지원 혜택을 받아보세요
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="register-item">
+            <a href="">
+              <div class="text-box">
+                <img src="./assets/img/icon-plus.png" alt="">
+                <strong>카카오 플러스</strong>
+                <p>
+                  24901miles의 카카오플러스 채널의<br>
+                  친구 등록을 하시면<br>
+                  다양한 소식을 전해드립니다.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="register-item">
+            <a href="">
+              <div class="text-box">
+                <em>FAQ</em><br>
+                <strong>자주하는 질문</strong>
+                <p>
+                  자주하는 질문을<br>
+                  빠르게 확인해 보세요
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="register-item">
+            <a href="">
+              <div class="text-box">
+                <div class="as">상품문의 및 A/S신청</div>
+                <div class="store">샤크 닌자</div>
+                <div class="tel">1644-9245</div>
+                <div class="store">리페르 / 몰리큘 / 스테들러폼</div>
+                <div class="tel">1577-4253</div>
+                <div class="time">09:00 ~ 18:00 (토/일/공휴일 제외)</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+
+      <!-- footer logo 영역-->
+      <section class="sc-logo">
+        <h2 class="logo"><a href=""><img src="./assets/img/logo.svg" alt="24901로고"></a></h2>
+      </section>
+
+      <!-- footer gnb 영역-->
+      <nav class="sc-gnb">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="" class="nav">Brand</a>
+            <ul class="sub-list">
+              <li><a href="">Shark</a></li>
+              <li><a href="">Shark Beauty</a></li>
+              <li><a href="">Ninja</a></li>
+              <li><a href="">Liebherr</a></li>
+              <li><a href="">Molekule</a></li>
+              <li><a href="">Stadlerform</a></li>
+            </ul>
+
+          </li>
+          <li class="nav-item"><a href="" class="nav">KITCHEN</a>
+            <ul class="sub-list">
+              <li><a href="">냉장고</a></li>
+              <li><a href="">와인 냉장고</a></li>
+              <li><a href="">블렌더</a></li>
+              <li><a href="">아이스크림 메이커</a></li>
+              <li><a href="">에어프라이어</a></li>
+              <li><a href="">오븐</a></li>
+              <li><a href="">그릴</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="" class="nav">LIVING</a>
+            <ul class="sub-list">
+              <li><a href="">청소기</a></li>
+              <li><a href="">공기청정기</a></li>
+              <li><a href="">써큘레이터</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="" class="nav">POWDER ROOM</a>
+            <ul class="sub-list">
+              <li><a href="">헤어스타일러</a></li>
+              <li><a href="">가습기</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="" class="nav">Customer</a>
+            <ul class="sub-list">
+              <li><a href="">공지사항</a></li>
+              <li><a href="">1:1문의</a></li>
+              <li><a href="">자주하는 질문</a></li>
+              <li><a href="">이벤트</a></li>
+              <li><a href="">회원 혜택 안내</a></li>
+              <li><a href="">PR</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="" class="nav">Privacy</a>
+            <ul class="sub-list">
+              <li><a href="">이용약관</a></li>
+              <li><a href="">개인정보처리방침</a></li>
+              <li><a href="">이메일 무단 수집거부</a></li>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <!-- footer address 영역 -->
+
+    <section class="sc-address">
+      <div class="inner">
+        <div class="contact">
+          <div class="title">
+            <h3>CONTACT</h3>
+          </div>
+          <div class="address">
+            <P>주식회사 코스모앤컴퍼니 <i class="bar"></i>
+              대표 : 김석근<i class="bar"></i>
+              사업자등록번호 : 628-87-00060<i class="bar"></i>
+              통신판매업신고번호 : 2021-서울서초-3736
+            </P>
+            <p>이메일 : info@cosmoglobal.co.kr<i class="bar"></i>
+              고객센터 : 샤크/닌자 1644-9245, 리페르/몰리큘/스테들러폼 1577-4253<i class="bar"></i>
+              주소 : (06671) 서울특별시 서초구 반포대로 43 1층
+            </p>
+            <span>COPYRIGHT ©2023 24,901miles. ALL RIGHTS RESERVED.</span>
+          </div>
+        </div>
+
+        <div class="sns">
+          <div class="title">
+            <h3>SNS</h3>
+          </div>
+          <div class="img">
+            <a href=""><img src="./assets/img/icon_facebook.svg" alt="페이스북"></a>
+            <a href=""><img src="./assets/img/icon_insta.svg" alt="인스타"></a>
+            <a href=""><img src="./assets/img/icon_blog.svg" alt="블로그"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </footer>
+
+</body>
+
+</html>

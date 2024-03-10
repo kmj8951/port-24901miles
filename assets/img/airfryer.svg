@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.413" height="35.068" viewBox="0 0 41.413 35.068">
+  <g id="product_ico5" transform="translate(0.5 0.5)" opacity="0.85">
+    <rect id="사각형_187" data-name="사각형 187" width="39.343" height="2.243" rx="1.121" transform="translate(0.535)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="패스_11479" data-name="패스 11479" d="M-5590.838,388.137l.034,3.292a1.022,1.022,0,0,1-1.022,1.022h-38.369a1.022,1.022,0,0,1-1.022-1.022l.257-25.039a1.022,1.022,0,0,1,1.022-1.022h37.855a1.022,1.022,0,0,1,1.022,1.022l.162,15.81" transform="translate(5631.217 -361.341)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="패스_11480" data-name="패스 11480" d="M-5498.333,365.368v7.853a1.545,1.545,0,0,1-1.545,1.546h-21.13a1.545,1.545,0,0,1-1.545-1.546v-7.853" transform="translate(5530.65 -361.341)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <rect id="사각형_188" data-name="사각형 188" width="20.699" height="5.063" rx="2.531" transform="translate(9.857 6.536)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="선_141" data-name="선 141" x2="37.72" transform="translate(0.535 16.97)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="패스_11481" data-name="패스 11481" d="M-5624.864,726.513q.792.707,1.618,1.377a7.424,7.424,0,0,0,2.251,1.528,3.534,3.534,0,0,0,.907.1c4.607.1,9.223.027,13.832-.025,4.974.05,11.109.045,16.083-.067a3.526,3.526,0,0,0,.907-.1,7.424,7.424,0,0,0,2.251-1.527q.825-.669,1.618-1.377" transform="translate(5625.337 -695.495)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="그룹_14187" data-name="그룹 14187" transform="translate(7.711 16.97)">
+      <rect id="사각형_189" data-name="사각형 189" width="3.802" height="13.956" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="패스_11482" data-name="패스 11482" d="M-5523.912,565.191a1.9,1.9,0,0,1-1.9,1.9,1.9,1.9,0,0,1-1.9-1.9" transform="translate(5527.714 -563.247)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="그룹_14188" data-name="그룹 14188" transform="translate(28.13 16.97)">
+      <rect id="사각형_190" data-name="사각형 190" width="3.802" height="13.956" transform="translate(0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="패스_11483" data-name="패스 11483" d="M-5249.836,565.191a1.9,1.9,0,0,1-1.9,1.9,1.9,1.9,0,0,1-1.9-1.9" transform="translate(5253.638 -563.247)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <line id="선_142" data-name="선 142" y2="11.061" transform="translate(20.206 19.865)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="그룹_14192" data-name="그룹 14192" transform="translate(14.997 8.86)">
+      <g id="그룹_14189" data-name="그룹 14189" transform="translate(2.431)">
+        <path id="패스_11484" data-name="패스 11484" d="M-5392.287,431.339h-4.458a.55.55,0,0,1-.549-.549.55.55,0,0,1,.549-.549h4.458a.55.55,0,0,1,.549.549A.55.55,0,0,1-5392.287,431.339Zm0-.456h0Z" transform="translate(5397.295 -430.241)" fill="#fff"/>
+      </g>
+      <g id="그룹_14190" data-name="그룹 14190" transform="translate(8.459)">
+        <path id="패스_11485" data-name="패스 11485" d="M-5314.977,431.339h-.861a.55.55,0,0,1-.549-.549.55.55,0,0,1,.549-.549h.861a.55.55,0,0,1,.549.549A.55.55,0,0,1-5314.977,431.339Zm0-.456h0Z" transform="translate(5316.387 -430.241)" fill="#fff"/>
+      </g>
+      <g id="그룹_14191" data-name="그룹 14191">
+        <path id="패스_11486" data-name="패스 11486" d="M-5428.51,431.339h-.862a.55.55,0,0,1-.549-.549.55.55,0,0,1,.549-.549h.862a.55.55,0,0,1,.549.549A.55.55,0,0,1-5428.51,431.339Zm0-.456h0Z" transform="translate(5429.921 -430.241)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
